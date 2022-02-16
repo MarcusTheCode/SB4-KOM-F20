@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <libGDX.version>1.9.10</libGDX.version>
+        <libGDX.version>1.10.0</libGDX.version>
     </properties>
     
     <repositories>
@@ -72,6 +72,11 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>Player</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>Enemy</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
