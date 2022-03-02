@@ -12,8 +12,8 @@
         <module name="Collision (3)" />
         <module name="OSGiCommonEnemy" />
         <module name="common (1)" />
-        <module name="Asteroid (1)" />
         <module name="CommonBullet" />
+        <module name="Asteroid (1)" />
         <module name="OSGiAsteroids" />
         <module name="Asteroid" />
         <module name="OSGiCore" />
@@ -34,8 +34,8 @@
         <module name="Core (2) (dk.sdu.mmmi.cbse)" />
         <module name="OSGiCommon" />
         <module name="Common" />
-        <module name="DictionaryDemo" />
         <module name="HelloWorld" />
+        <module name="DictionaryDemo" />
         <module name="Astroid" />
         <module name="AsteroidsNetbeansModules-app" />
         <module name="Core (1) (dk.sdu.mmmi.cbse)" />
@@ -43,8 +43,8 @@
         <module name="ExtendedDictionary" />
         <module name="Core (1)" />
         <module name="Bullet (2)" />
-        <module name="Collision (1)" />
         <module name="SilentUpdate" />
+        <module name="Collision (1)" />
         <module name="Enemy (1)" />
         <module name="Asteroid (3)" />
         <module name="player (1)" />
@@ -72,7 +72,7 @@
       <module name="AgeCalculatorSpring" target="1.8" />
       <module name="AgeCalculatorSpringClient" target="1.8" />
       <module name="Asteroid" target="9" />
-      <module name="Asteroid (1)" target="9" />
+      <module name="Asteroid (1)" target="1.8" />
       <module name="Asteroid (2)" target="1.8" />
       <module name="Asteroid (3)" target="1.8" />
       <module name="asteroids.java9" target="9" />
@@ -87,12 +87,12 @@
       <module name="Bullet (1)" target="8" />
       <module name="Bullet (2)" target="1.8" />
       <module name="Collision" target="9" />
-      <module name="Collision (1)" target="9" />
+      <module name="Collision (1)" target="1.8" />
       <module name="Collision (2)" target="1.8" />
       <module name="Collision (3)" target="1.8" />
       <module name="Common" target="1.8" />
       <module name="common" target="9" />
-      <module name="common (1)" target="9" />
+      <module name="common (1)" target="1.8" />
       <module name="Common (1)" target="1.8" />
       <module name="Common (2)" target="1.8" />
       <module name="common (2)" target="1.8" />
@@ -132,7 +132,7 @@
       <module name="Player" target="1.8" />
       <module name="player" target="9" />
       <module name="Player (1)" target="1.8" />
-      <module name="player (1)" target="9" />
+      <module name="player (1)" target="1.8" />
       <module name="Player (2)" target="1.8" />
       <module name="player (2)" target="1.8" />
       <module name="provision" target="1.8" />
