@@ -4,14 +4,14 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
       <groupId>dk.sdu.mmmi.cbse</groupId>
-      <artifactId>AsteroidsNetbeansModules-parent</artifactId>
+      <artifactId>untitled-parent</artifactId>
       <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>NBRuntimeExample12-branding</artifactId>
+  <artifactId>untitled-branding</artifactId>
   <packaging>nbm</packaging>
 
-  <name>NBRuntimeExample12-branding</name>
+  <name>untitled-branding</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

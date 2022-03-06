@@ -12,6 +12,7 @@
         <module>Enemy</module>
         <module>Bullet</module>
         <module>Astroid</module>
+        <module>untitled</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
