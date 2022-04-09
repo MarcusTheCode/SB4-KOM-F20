@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CommonEnemy" />
         <module name="Player (1)" />
-        <module name="OSGiLaser" />
         <module name="Collision (3)" />
+        <module name="OSGiLaser" />
         <module name="OSGiCommonEnemy" />
         <module name="common (1)" />
         <module name="Asteroid (1)" />
@@ -20,8 +20,9 @@
         <module name="Enemy" />
         <module name="Core (2)" />
         <module name="AsteroidsNetbeansModules-branding" />
-        <module name="OSGiCommonBullet" />
         <module name="Common (2)" />
+        <module name="OSGiCommonBullet" />
+        <module name="OSGiCommonPlayer" />
         <module name="AsteroidsLibGDX" />
         <module name="OSGiCommonAsteroids" />
         <module name="OSGiLibGDX" />
@@ -33,15 +34,15 @@
         <module name="common (2)" />
         <module name="Core (2) (dk.sdu.mmmi.cbse)" />
         <module name="OSGiCommon" />
-        <module name="Common" />
         <module name="DictionaryDemo" />
-        <module name="HelloWorld" />
+        <module name="Common" />
         <module name="Astroid" />
         <module name="AsteroidsNetbeansModules-app" />
         <module name="Core (1) (dk.sdu.mmmi.cbse)" />
         <module name="NBRuntimeExample12-app" />
         <module name="ExtendedDictionary" />
         <module name="Core (1)" />
+        <module name="OSGiPlayer" />
         <module name="Bullet (2)" />
         <module name="Collision (1)" />
         <module name="SilentUpdate" />
@@ -50,6 +51,7 @@
         <module name="player (1)" />
         <module name="common" />
         <module name="Core (4)" />
+        <module name="OSGICollision" />
         <module name="player" />
         <module name="Bullet" />
         <module name="Bullet (1)" />
@@ -90,7 +92,7 @@
       <module name="Collision (1)" target="1.8" />
       <module name="Collision (2)" target="1.8" />
       <module name="Collision (3)" target="1.8" />
-      <module name="Common" target="1.8" />
+      <module name="Common" target="8" />
       <module name="common" target="9" />
       <module name="common (1)" target="1.8" />
       <module name="Common (1)" target="1.8" />
@@ -120,14 +122,17 @@
       <module name="NBRuntimeExample12-parent" target="1.5" />
       <module name="OSGiAsteroids" target="1.8" />
       <module name="OSGiAsteroidSplitter" target="1.8" />
+      <module name="OSGICollision" target="1.8" />
       <module name="OSGiCommon" target="1.8" />
       <module name="OSGiCommonAsteroids" target="1.8" />
       <module name="OSGiCommonBullet" target="1.8" />
       <module name="OSGiCommonEnemy" target="1.8" />
+      <module name="OSGiCommonPlayer" target="1.8" />
       <module name="OSGiCore" target="1.8" />
       <module name="OSGiEnemy" target="1.8" />
       <module name="OSGiLaser" target="1.8" />
       <module name="OSGiLibGDX" target="1.8" />
+      <module name="OSGiPlayer" target="1.8" />
       <module name="PaxAteroids" target="1.8" />
       <module name="Player" target="1.8" />
       <module name="player" target="9" />
