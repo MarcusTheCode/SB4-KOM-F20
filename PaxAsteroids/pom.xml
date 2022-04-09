@@ -25,7 +25,6 @@
   <groupId>dk.sdu.mmmi</groupId>
   <artifactId>PaxAteroids</artifactId>
   <version>1.0-SNAPSHOT</version>
-      
   <name>PaxAsteroids (OSGi project)</name>
       
   <!--
@@ -55,11 +54,14 @@
       <module>OSGiCommonAsteroids</module>
       <module>OSGiCommonBullet</module>
       <module>OSGiCommonEnemy</module>
+      <module>OSGICommonPlayer</module>
       <module>OSGiAsteroidSplitter</module>
+      <module>OSGICollision</module>
       <module>OSGiAsteroids</module>
+      <module>OSGiLibGDX</module>
       <module>OSGiLaser</module>
       <module>OSGiEnemy</module>
-      <module>OSGiLibGDX</module>
+      <module>OSGiPlayer</module>
   </modules>
       
   <build>

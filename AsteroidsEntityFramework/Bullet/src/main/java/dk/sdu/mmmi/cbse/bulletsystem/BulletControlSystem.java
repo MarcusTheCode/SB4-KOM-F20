@@ -1,5 +1,6 @@
 package dk.sdu.mmmi.cbse.bulletsystem;
 
+import dk.sdu.mmmi.cbse.common.bullet.BulletInt;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import static dk.sdu.mmmi.cbse.common.data.GameKeys.LEFT;
@@ -8,15 +9,17 @@ import static dk.sdu.mmmi.cbse.common.data.GameKeys.UP;
 import static java.lang.Math.*;
 
 import dk.sdu.mmmi.cbse.common.data.World;
+import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
+import dk.sdu.mmmi.cbse.common.bullet.Bullet;
 
 /**
  *
  * @author jcs
  */
-public class BulletControlSystem implements IEntityProcessingService {
+public class BulletControlSystem implements IEntityProcessingService, BulletInt{
 
     @Override
     public void process(GameData gameData, World world) {
@@ -75,4 +78,33 @@ public class BulletControlSystem implements IEntityProcessingService {
         entity.setShapeY(shapey);
     }
 
+    @Override
+    public Entity newBullet(Entity entity, GameData gameData) {
+        PositionPart shooterPos = entity.getPart(PositionPart.class);
+        MovingPart shooterMovingPart = entity.getPart(MovingPart.class);
+
+
+
+        float x = shooterPos.getX();
+        float y = shooterPos.getY();
+        float radians = shooterPos.getRadians();
+        float dt = gameData.getDelta();
+        float speed = 350;
+
+        Entity bullet = new Bullet();
+        bullet.setRadius(2);
+
+        float bx = (float) cos(radians) * entity.getRadius() * bullet.getRadius();
+        float by = (float) sin(radians) * entity.getRadius() * bullet.getRadius();
+
+        bullet.add(new PositionPart(bx + x, by + y, radians));
+        //bullet.add(new LifePart(1));
+        bullet.add(new MovingPart(0, 5000000, speed, 5));
+        //bullet.add(new TimerPart(1));
+
+        bullet.setShapeX(new float[2]);
+        bullet.setShapeY(new float[2]);
+
+        return bullet;
+    }
 }

@@ -17,7 +17,7 @@ public class Game implements ApplicationListener {
 	
 	private GameStateManager gsm;
 	
-        @Override
+	@Override
 	public void create() {
 		
 		WIDTH = Gdx.graphics.getWidth();
